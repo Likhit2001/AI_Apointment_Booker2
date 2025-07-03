@@ -6,6 +6,9 @@ from langchain_core.runnables import RunnableLambda
 import re
 import json
 import requests
+import os
+
+api_key = os.getenv("GROQ_API_KEY")
 
 # === STATE ===
 class GraphState(TypedDict):
@@ -26,6 +29,7 @@ def whisper_node(state: GraphState) -> GraphState:
     return {**state, "transcription": result["text"]}
 
 # === NODE 2: ChatGroq LLM Extractor ===
+api_key = api_key
 api_key = "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"
 llm = ChatGroq(model="qwen-qwq-32b", api_key=api_key,temperature=0.0)
 
