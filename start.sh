@@ -1,5 +1,4 @@
 #!/bin/bash
-export GROQ_API_KEY=="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"
 # Start FastAPI backend in the background
 uvicorn main:app --host 0.0.0.0 --port 8000 &
 

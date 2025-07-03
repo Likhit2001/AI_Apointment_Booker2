@@ -29,7 +29,7 @@ def whisper_node(state: GraphState) -> GraphState:
     return {**state, "transcription": result["text"]}
 
 # === NODE 2: ChatGroq LLM Extractor ===
-api_key = api_key
+api_key = os.getenv("GROQ_API_KEY")
 llm = ChatGroq(model="qwen-qwq-32b", api_key=api_key,temperature=0.0)
 
 
