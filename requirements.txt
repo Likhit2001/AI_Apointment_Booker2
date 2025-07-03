@@ -1,0 +1,9 @@
+streamlit 
+requests
+langchain
+langgrapgh
+openai-whisper
+setuptools-rust
+audio-recorder-streamlit
+python-multipart
+twilio
