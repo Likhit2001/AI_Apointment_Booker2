@@ -1,7 +1,5 @@
 # 🩺 MediVoice: AI Appointment Booking Assistant
 
-![App Preview](./screenshots/voice_input.png)
-
 MediVoice lets users book medical appointments either by **voice input** or a **manual form**. You speak your appointment details, and the app transcribes and parses the info to schedule an appointment and sends confirmation via email.
 
 ---
@@ -20,14 +18,15 @@ MediVoice lets users book medical appointments either by **voice input** or a **
 
 ## 🖼️ Screenshots
 
-**Voice Input Mode**  
-![Voice Input](./screenshots/voice_input.png)
+**Voice Input Voice Mode**  
+![Voice Input] <img width="759" alt="Screenshot 2025-07-04 at 3 53 18 AM" src="https://github.com/user-attachments/assets/1d3efb50-af6d-4ad5-8154-c5245a68d2cd" />
 
 **Form Input & Confirmation**  
-![Form Input](./screenshots/form_booking.png)
+![Form Input] <img width="996" alt="Screenshot 2025-07-04 at 3 54 32 AM" src="https://github.com/user-attachments/assets/ab2d3651-c90c-49b9-a38f-c9ca6cf9719e" />
 
 **Email Confirmation Received**  
-![Email Sent](./screenshots/email.png)
+![Email Sent] <img width="1012" alt="Screenshot 2025-07-04 at 3 55 28 AM" src="https://github.com/user-attachments/assets/758ac590-d572-45b3-b28f-572ec15d5f6c" />
+
 
 ---
 
