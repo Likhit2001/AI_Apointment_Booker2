@@ -27,7 +27,7 @@ if mode == "🎙️ Voice Input":
             with st.spinner("Transcribing and processing your appointment..."):
                 try:
                     files = {"file": ("recording.wav", audio_bytes, "audio/wav")}
-                    response = requests.post("http://localhost:8000/transcribe_audio/", files=files)
+                    response = requests.post("http://backend:8000/transcribe_audio/", files=files)
 
                     if response.ok:
                         data = response.json()

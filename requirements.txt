@@ -1,9 +1,11 @@
 streamlit 
 requests
 langchain
-langgrapgh
+langgraph 
 openai-whisper
 setuptools-rust
 audio-recorder-streamlit
 python-multipart
-twilio
+uvicorn
+fastapi
+langchain_groq 
