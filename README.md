@@ -123,17 +123,4 @@ To enable email functionality:
 - `.env` should be listed in `.gitignore` to avoid accidental publishing.
 
 ---
-
-## 🧑‍💻 Contributors
-
-- **Likhit Kothapalli** – Project Creator & Lead Developer
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
 **Enjoy using MediVoice?** If you find it helpful, feel free to ⭐ the repository!
